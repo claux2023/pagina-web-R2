@@ -1,0 +1,200 @@
+
+/* navbar */
+.imgnav{
+    max-width: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#675647 !important;
+}
+
+.navbar {
+    background-color: #4d3d2e ;
+    height: 70px;
+}
+
+.contactanos {
+    font-size: 25px;
+    color: #333;
+    height: 0.1px;
+}
+
+.navbar .navbar-brand img {
+    height: 60px;
+}
+/* carrusel*/
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    border-radius: 15px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.3); /* esto  Cambia el fondo de los controles */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none; /*  esto cambia la flecha predeterminada */
+}
+
+/* Estilos para las flechas de navegación carrusel */
+.carousel-control-prev-icon:before {
+    content: '<'; /* Cambia la flecha izquierda a '<' */
+    font-size: 30px;
+    color: #fff;
+}
+
+.carousel-control-next-icon:before {
+    content: '>'; /* Cambia la flecha derecha a '>' */
+    font-size: 30px;
+    color: #fff;
+}
+
+.descripcion {
+    background-color: #9a5e5e;
+}
+/* cards */
+.card {
+    border: none;
+    margin-bottom: 20px ;
+}
+
+.btn {
+    border-color: #4d3d2e;
+    background-color: #9a5e5e;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d3d2e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text {
+    color: #615454;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Estilos adicionales footer */
+footer {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer h5 {
+    font-size: 19px;
+    color: #333;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul.list-unstyled {
+    padding-left: 0;
+}
+
+footer ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+section h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos adicionales para la responsividad */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar .navbar-brand img {
+        max-width: 80px;
+    }
+
+    .carousel {
+        margin-top: 10px;
+    }
+
+    .carousel-inner, .carousel-item {
+        border-radius: 0;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos adicionales historia.html */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.historia {
+    margin-top: 20px;
+}
+
+.historia img {
+    max-width: 100%;
+}
+
+.historia p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+ /* Estilo para centrar el contenido verticalmente */
+ .vertical-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

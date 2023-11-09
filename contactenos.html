@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CYS radio chile</title>
+    <link href="assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap/style.css">
+
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="imgnav" src="assets/img/logo-cys-radio.png" alt="" style="max-width: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="historia.html" target="_blank">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contactenos.html" target="_blank">Contáctenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ubicacion.html" target="_blank">Ubicación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+   <!--formulario contactenos -->
+    <div class="container">
+        <div class="row vertical-center">
+
+            <div class="col-12 col-md-6 contact-form">
+                <h2 class="text-center">Contáctenos</h2>
+                <p class="text-center">Para contactarse con nosotros, por favor completar formulario</p>
+                <form action="TU_ACCIÓN_DE_FORMULARIO" method="POST">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" placeholder="" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+
+                <p>muchas gracias por contactarte con nosotros </p>
+
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+    <footer class="bg-light text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Acerca de</h5>
+                    <hr class="mb-4">
+                    <p>
+                        CyS Radio Dalcahue, emisora de la isla Grande de Chiloé. Sintonízanos en la 96.3 FM,
+                    </p>
+                </div>
+                <div class="col-md-2 mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Redes Sociales</h5>
+                    <hr class="mb-4">
+                    <ul class="list-unstyled">
+                        <li><img src="assets/icons/facebook.svg"><a href="https://www.facebook.com/CySRadioChile?locale=es_LA" class="text-dark">CYS radio chile</a></li>
+                        <li><img src="assets/icons/instagram.svg"><a href="https://www.instagram.com/cysradiodalcahue/" class="text-dark">CYS radio chile</a></li>
+                        <li><img src="assets/icons/telephone.svg" alt=""><a href="#" class="text-dark">+56976096501</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Contáctanos</h5>
+                    <hr class="mb-4">
+                    <ul class="list-unstyled">
+                        <li><img src="assets/icons/ubi.svg" alt=""><span class="text-dark">Dalcahue,freire 645</span></li>
+                        <li><img src="assets/icons/email.svg" alt=""><span class="text-dark">contacto@cysradio.cl</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
